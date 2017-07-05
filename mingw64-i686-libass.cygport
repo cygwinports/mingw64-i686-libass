@@ -2,7 +2,7 @@ CROSS_HOST="i686-w64-mingw32"
 inherit cross
 
 NAME="mingw64-i686-libass"
-VERSION=0.12.3
+VERSION=0.13.7
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="SSA/ASS subtitle rendering library for Win32 toolchain"
@@ -11,6 +11,3 @@ subtitle rendering."
 HOMEPAGE="https://github.com/libass/libass/"
 SRC_URI="${HOMEPAGE}/archive/${VERSION}/libass-${VERSION}.tar.gz"
 SRC_DIR="libass-${VERSION}"
-PATCH_URI="
-	0.9.11-iconv.patch
-"
